@@ -1,0 +1,76 @@
+ @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+    font-family: "Poppins", serif;
+}
+h3{
+ text-align: center;
+ color: aliceblue;
+ margin-bottom: 1rem;
+ font-size: 8vh;
+}
+.container{
+    height: 70vh;
+    min-width:30vw ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.calc{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    height: 100%;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: lightgray;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0.15rem;
+    border-radius: 15%;
+}
+.screen{
+    padding: 1rem;
+    width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+input{
+    border: none;
+    margin: 8px;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    color: #0a0a0a;
+}
+.row .orange{
+   background-color: #fb7c14 ;
+   color: #ffff;
+}
